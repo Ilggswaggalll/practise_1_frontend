@@ -53,11 +53,8 @@ body {
   &__image {
     border-radius: $radius;
     min-height: 160px;
-
-    // Вместо реального фото — градиент (нужно заменить на <img>)
-    background:
-      radial-gradient(circle at 20% 20%, rgba(255,255,255,0.18), transparent 45%),
-      linear-gradient(135deg, rgba(52,152,219,0.45), rgba(155,89,182,0.35));
+    width: 100%;
+    object-fit: cover;
   }
 
   &__content {
