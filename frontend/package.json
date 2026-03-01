@@ -9,7 +9,10 @@
     "watch:less": "lessc --watch styles/main.less public/main-less.css"
   },
   "devDependencies": {
-    "sass": "^1.70.0",
-    "less": "^4.2.0"
+    "less": "^4.2.0",
+    "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
