@@ -29,7 +29,7 @@ router.post("/", (req, res) => {
         return res.status(400).json("Price is required! (number >= 0)");
     }
 
-    const nextId = products.length ? Math.max(...products.map((p) => p.id)) : 1
+    const nextId = products.length ? Math.max(...products.map((p) => p.id)) + 1 : 1
 
     const newProduct = {
         id: nextId,
