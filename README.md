@@ -1,5 +1,5 @@
 # FB-4-2026-pr1-2-starter
-
+Скриншоты по результатам 3 практики в папке docs
 ## Студентам — как забрать проект и что сдавать
 
 Репозиторий: https://github.com/ZagorodnikhNick/FB-4-2026-pr1-2-starter.git
