@@ -1,5 +1,23 @@
 module.exports = [
-  { id: 1, title: "Кофе", price: 199 },
-  { id: 2, title: "Чай", price: 149 },
-  { id: 3, title: "Шоколад", price: 129 }
+    { id: 1, title: "Iphone 17 Pro Max", category: "Смартфоны", description: "Смартфон Apple iPhone 17 Pro Max eSIM",
+      price: 119999, stock: "200", image: '/images/iphone_17_pro_max.jpg'},
+    { id: 2, title: "Iphone 17 Pro", category: "Смартфоны", description: "Смартфон Apple iPhone 17 Pro eSIM",
+      price: 109999, stock: "200", image: '/images/iphone_17_pro.jpg'},
+    { id: 3, title: "Iphone 17", category: "Смартфоны", description: "Смартфон Apple iPhone 17 eSIM",
+      price: 71999, stock: "200", image: '/images/iphone_17.jpg'},
+    { id: 4, title: "Iphone 17 Air", category: "Смартфоны", description: "Смартфон Apple iPhone 17 Air eSIM",
+        price: 81999, stock: "200", image: '/images/iphone_17_air.jpg'},
+    { id: 5, title: "AirPods 4", category: "Наушники", description: "Наушники Apple AirPods 4 белые",
+        price: 15999, stock: "200", image: '/images/airpods_4.jpg'},
+    { id: 6, title: "AirPods 4 (с шумоподавлением)", category: "Наушники",
+        description: "Наушники Apple AirPods 4 белые с шумоподавлением",
+        price: 15999, stock: "200", image: '/images/airpods_4_noise_reduction.jpg'},
+    { id: 7, title: "AirPods Pro 3", category: "Наушники", description: "Наушники Apple AirPods Pro 3 белые",
+        price: 21999, stock: "200", image: '/images/airpods_pro_3.jpg'},
+    { id: 8, title: "AirPods Pro 2", category: "Наушники", description: "Наушники Apple AirPods Pro 2 белые",
+        price: 18999, stock: "200", image: '/images/airpods_pro_2.jpg'},
+    { id: 9, title: "AirPods 3", category: "Наушники", description: "Наушники Apple AirPods 3 белые",
+        price: 10999, stock: "200", image: '/images/airpods_3.jpg'},
+    { id: 10, title: "AirPods Max", category: "Наушники", description: "Наушники Apple AirPods 3 полуночный черный",
+        price: 47999, stock: "200", image: '/images/airpods_max.jpg'}
 ];
